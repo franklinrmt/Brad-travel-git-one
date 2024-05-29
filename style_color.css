@@ -28,20 +28,24 @@ body {
 }
 
 .midground {
-  background-color: hsla(225, 100%, 25%, 0.4);
+  background-color: hsla(225, 100%, 25%,1);
+  z-index: 2;
+
 }
 
 .foreground {
-  background-color: #bf408a99;
+  background-color: rgba(191, 64, 138, 1);
   color: #ffff00;
+  z-index: 1;
 }
 .background {
   
   width: 50vw;
   height: 75vh;
-  background-color: rgba(255, 166, 0, 0.45);
+  background-color: rgba(255, 166, 0, 1);
   position: absolute;
   top:100px;
   left: 50%;
+  z-index: 3;
 }
 
